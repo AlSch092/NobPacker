@@ -14,7 +14,7 @@ The loader is a program which manually maps the PE into its current address spac
 
 `./NobLoader.exe` , and has no command line arguments available by default.  
 
-The loader makes use of the project found at: https://github.com/TheCruZ/Simple-Manual-Map-Injector , with some modifications made to add the unpacking logic. Packed files will likely be larger than their originals due to the compression algorithms not being optimal for usage on PE files.  
+The loader makes use of the project found at: https://github.com/TheCruZ/Simple-Manual-Map-Injector , with some modifications made to add the unpacking logic. Packed files will likely be larger than their originals due to the compression algorithms not being optimal for usage on PE files. Future additions to this repo will likely see adding sections to pack as command line arguments, along with the option of placing the cipher key as packed metadata, rather than needing the packer + loader to share a key.   
 
 
 
